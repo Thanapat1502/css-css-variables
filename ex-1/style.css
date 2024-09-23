@@ -5,3 +5,38 @@
 }
 
 /* Start coding here */
+
+:root {
+  /*COLOR*/
+  --Branding-Color: #ff7f50;
+  --Secondary-Color: cornsilk;
+  --Highlight-Color: #d2691e;
+  --Muted-Color: #a9a9a9;
+  /*MARGIN*/
+  --Level-1: 1px;
+  --Level-2: 5px;
+  --Level-3: 10px;
+  --Level-4: 15px;
+  --Level-5: 20px;
+  /*PADDING*/
+  --Level-1: 1px;
+  --Level-2: 5px;
+  --Level-3: 10px;
+  --Level-4: 15px;
+  --Level-5: 20px;
+  /*FONT-SIZE*/
+  --S: 12px;
+  --M: 16px;
+  --L: 20px;
+  --XL: 30px;
+  --XXL: 50px;
+  --XXXL: 100px;
+}
+.introduction {
+  background-color: var(--Secondary-Color);
+  padding: var(--Level-5);
+}
+.introduction h1 {
+  color: var(--Branding-Color);
+  font-size: var(--XXXL);
+}
